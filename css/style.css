@@ -1,0 +1,76 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #212121;
+}
+/* base */
+.block {
+	
+}
+
+.block__container {
+	max-width: 1148px;
+	padding: 0 10px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+/* home */
+.block--home {
+	padding: 50px 0 0;
+	background: url(../img/tree_bg.png) 100% 100% no-repeat;
+	background-size: cover;
+}
+
+.block__container--home {
+	padding: 50px 0 50px;
+	
+}
+
+.clearfix::after {
+	content: "";
+	overflow: hidden;
+	display: table;
+	clear: both;
+}
+
+.logo {}
+
+.logo--header {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 32px;
+	text-transform: uppercase;
+}
+
+.menu {
+	
+}
+
+.menu--header {
+	
+}
+
+.menu__item {
+	text-decoration: none;
+    text-transform: uppercase;	
+    padding: 5px 19px 0px 21px;
+    font-size: 16px;
+	line-height: 32px;
+	font-weight: 700;
+	color: #212121;
+}
+.menu__item--is-hovered {}
+.menu__item--navicon {}
+.menu__item--navicon__is-hovered {}
+.block__content {}
+.block__content--home {}
+.line {}
+.line--underline {}
+.content__description {}
+.content__description--home {}
+.btn {}
+.btn--is-hovered {}
+.btn__caption {}
+
+/* end of home */
