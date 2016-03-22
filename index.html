@@ -5,10 +5,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>unicorn</title>
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/style_adaptive.css">
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900,600,400italic' rel='stylesheet' type='text/css'>
+	
 	<!-- font-family: 'Source Sans Pro', sans-serif; -->
 </head>
 <body>
@@ -18,33 +20,34 @@
 		<!-- header -->
 			<header class="clearfix">
 
-    			<div class="logo logo--header">unicorn</div>
+    			<div class="logo--header">unicorn</div>
     			
+                <span class="menuTrigger" id="hamburger-one">
+        			<span class="mainLine"></span>
+    			</span>
+
 				<nav class="menu menu--header">
-					<a class="menu__item menu__item--is-hovered" href="#home" title="">home</a>
-					<a class="menu__item menu__item--is-hovered" href="#about" title="">about</a>
-					<a class="menu__item menu__item--is-hovered" href="#stories" title="">stories</a>
-					<a class="menu__item menu__item--is-hovered" href="#hello" title="">hello</a>
-					<a class="menu__item menu__item--navicon menu__item--navicon__is-hovered" href="#" title="">
-						<img src="img/Hamburger.svg" alt="menu">
-					</a>
+					<a class="menu__item" href="#home" title="">home</a>
+					<a class="menu__item" href="#about" title="">about</a>
+					<a class="menu__item" href="#stories" title="">stories</a>
+					<a class="menu__item" href="#hello" title="">hello</a>
 				</nav>
 
 			</header>
 		<!-- end of header -->
 
-			<div class="block__content block__content--home">
+			<div class="block__content block__content--home clearfix">
 				
 				<h1>STORYTELLER</h1>
 
-				<hr class="line line--underline">
+				<div class="line--underline"></div>
 
-				<p class="content__description content__description--home">
-					One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. 
+				<p class="content__description--home">
+					One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his ar-mour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. 
 				</p>
 
-				<button class="btn btn--is-hovered" type="submit" value="">
-					<a class="btn__caption" href="#services" title="">read the rest</a>
+				<button class="btn" type="submit" value="">
+					<a class="btn__caption" href="#stories" title="">read the rest</a>
 				</button>
 
 			</div>
@@ -54,6 +57,7 @@
 
 <!-- about -->
 
-	
+<script src="js/lib/jquery-1.9.1.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>

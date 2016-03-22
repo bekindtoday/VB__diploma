@@ -1,5 +1,5 @@
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Source Sans Pro';
 	color: #212121;
 }
 /* base */
@@ -8,7 +8,7 @@ body {
 }
 
 .block__container {
-	max-width: 1148px;
+	max-width: 1060px;
 	padding: 0 10px;
 	margin: 0 auto;
 	position: relative;
@@ -17,14 +17,13 @@ body {
 
 /* home */
 .block--home {
-	padding: 50px 0 0;
+	padding: 3.58% 0.94% 2.41%;
 	background: url(../img/tree_bg.png) 100% 100% no-repeat;
 	background-size: cover;
 }
 
 .block__container--home {
-	padding: 50px 0 50px;
-	
+	padding: 0 0 4.72%;
 }
 
 .clearfix::after {
@@ -34,43 +33,151 @@ body {
 	clear: both;
 }
 
-.logo {}
-
 .logo--header {
-	font-size: 18px;
+	float: left;
+	font-size: 16px;
 	font-weight: 700;
 	line-height: 32px;
 	text-transform: uppercase;
 }
 
 .menu {
-	
+	float: right;
 }
 
 .menu--header {
-	
+	margin: 0;
 }
 
 .menu__item {
 	text-decoration: none;
     text-transform: uppercase;	
-    padding: 5px 19px 0px 21px;
-    font-size: 16px;
-	line-height: 32px;
+    padding: 0 7px;
+    font-size: 14px;
+	line-height: 35px;
 	font-weight: 700;
 	color: #212121;
 }
-.menu__item--is-hovered {}
-.menu__item--navicon {}
-.menu__item--navicon__is-hovered {}
-.block__content {}
-.block__content--home {}
-.line {}
-.line--underline {}
-.content__description {}
-.content__description--home {}
-.btn {}
-.btn--is-hovered {}
-.btn__caption {}
 
+.menu__item:hover {
+	color: #ac8f61;
+}
+
+ .menuTrigger {
+    display: none;
+    float: right;
+    width: 38px;
+    height: 21px;
+    position: relative;
+    cursor: pointer;
+    margin: 0%;
+    vertical-align: middle;
+}
+
+.mainLine {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 5px;
+    margin-top: -3px;
+    background: #212121;
+    transition: all linear 0.3s;
+}
+.mainLine:after, .mainLine:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 6px;
+    background: #212121;
+    transform: rotate(0);
+    transition: all linear 0.3s;
+}
+.mainLine:before {
+    top: -13px;
+}
+.mainLine:after {
+    top: 13px;
+}
+
+#hamburger-one:hover .mainLine {
+	background: #dbe2e8;
+}
+
+#hamburger-one:hover .mainLine:before {
+    top: -16px;
+    background: #dbe2e8;
+}
+#hamburger-one:hover .mainLine:after {
+    top: 16px;
+    background: #dbe2e8;
+}
+
+#hamburger-one.menuToggle .mainLine {
+    background: transparent;
+    transition: all 0.3s linear ;
+}
+#hamburger-one.menuToggle .mainLine:before {
+    visibility: visible;
+    top: 0 !important;
+    transform: rotate(45deg);
+}
+#hamburger-one.menuToggle .mainLine:after {
+    visibility: visible;
+    top: 0 !important;
+    transform: rotate(-45deg);
+}
+
+.block__content--home {
+	padding: 30.84% 0 8.21%;
+	margin: 0 0.75% 0 0;
+}
+
+h1 {
+	text-align: right;
+	font-size: 65px;
+	font-weight: 900;
+}
+
+.line--underline {
+	width: 124px;
+    height: 4px;
+    background-color: #212121;
+    float: right;
+    margin: 8px 4px 0;
+}
+
+.content__description--home {
+	clear: both;
+	font-size: 16.5px;
+    font-weight: 400;
+    line-height: 31px;
+    padding: 2.74% 0 4.15% 52.08%;
+    text-align: right;
+}
+
+.btn {    
+	float: right;
+   	background: transparent;
+   	border: 0px solid;
+   	margin: 15px 0px;
+}
+
+.btn__caption {
+    text-decoration: none;
+    color: #212121;
+    font-size: 15px;
+	font-weight: 600;
+    border: 2px solid #212121;
+    padding: 11px 77px 13px;
+}    
+
+.btn__caption:hover {
+	border: 2px solid #f8f8f8;;
+	cursor: pointer;
+	background: rgba(50, 47, 40, 0.2);
+	color: #f8f8f8;
+}
 /* end of home */

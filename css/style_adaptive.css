@@ -1,0 +1,47 @@
+@media screen and (max-width: 768px) {
+/* home */
+	.home {
+		padding: 10px 0 0;
+	}
+	/* header*/
+	
+		
+	   
+        .menuTrigger {
+	        display: block;
+	        z-index: 1;
+    }
+
+	    .logo--header {
+		    font-size: 28px;
+		    font-weight: 700;
+		    margin: -11px 0 0;
+		    z-index: 10;
+		}
+
+		.menuTrigger.menuToggle + .menu {
+			display: block;
+			cursor: pointer;
+		}
+
+		.menu {
+			display: none;
+			position: absolute;
+		    padding: 2% 44%;
+		    right: -1%;
+		    top: -2%;
+		    text-align: center;
+		    background-color: rgba(56, 55, 57, 0.7);
+		    border: 0px solid;
+		}		
+
+		.menu__item {
+			display: block;
+			float: none;
+		    border: 0px;
+		    margin: 0px;
+		    padding: 6px 19px;
+    		font-size: 21px;
+		    color: #dbe2e8;
+		}
+	}	
