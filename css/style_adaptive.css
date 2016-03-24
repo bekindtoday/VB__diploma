@@ -3,23 +3,20 @@
 	.home {
 		padding: 10px 0 0;
 	}
-	/* header*/
 	
-		
-	   
-        .menuTrigger {
+	/* header*/
+        .menu--adaptive {
 	        display: block;
 	        z-index: 1;
-    }
+    	}
 
 	    .logo--header {
 		    font-size: 28px;
-		    font-weight: 700;
 		    margin: -11px 0 0;
 		    z-index: 10;
 		}
 
-		.menuTrigger.menuToggle + .menu {
+		.menu--toggle + .menu {
 			display: block;
 			cursor: pointer;
 		}
@@ -44,4 +41,168 @@
     		font-size: 21px;
 		    color: #dbe2e8;
 		}
-	}	
+	/* end of header */
+/* end of home */
+
+/* who & why */
+/* end of who & why */
+
+/* features */
+/* end of features */
+
+/* featured articles */
+/* end of featured articles */
+
+/* clients */
+/* end of clients */
+
+/* portfolio & screenshots */
+/* end of portfolio & screenshots */
+
+/* quote */
+/* end of quote */
+
+/* facts & numbers */
+/* end of facts & numbers */
+
+/* articles gallery */
+/* end of articles gallery */
+
+/* another articles' titles */
+/* end of another articles' titles */
+
+/* twitter message */
+/* end of twitter message */
+
+/* footer */
+/* end of footer */
+}	
+
+@media screen and (max-width: 600px) {
+/* base */
+/* end of base */
+
+/* home */
+	/* header */
+	/* end of header */
+/* end of home */
+
+/* who & why */
+/* end of who & why */
+
+/* features */
+/* end of features */
+
+/* featured articles */
+/* end of featured articles */
+
+/* clients */
+/* end of clients */
+
+/* portfolio & screenshots */
+/* end of portfolio & screenshots */
+
+/* quote */
+/* end of quote */
+
+/* facts & numbers */
+/* end of facts & numbers */
+
+/* articles gallery */
+/* end of articles gallery */
+
+/* another articles' titles */
+/* end of another articles' titles */
+
+/* twitter message */
+/* end of twitter message */
+
+/* footer */
+/* end of footer */	
+}
+
+@media screen and (max-width: 480px) {
+/* base */
+/* end of base */
+
+/* home */
+	/* header */
+	/* end of header */
+/* end of home */
+
+/* who & why */
+/* end of who & why */
+
+/* features */
+/* end of features */
+
+/* featured articles */
+/* end of featured articles */
+
+/* clients */
+/* end of clients */
+
+/* portfolio & screenshots */
+/* end of portfolio & screenshots */
+
+/* quote */
+/* end of quote */
+
+/* facts & numbers */
+/* end of facts & numbers */
+
+/* articles gallery */
+/* end of articles gallery */
+
+/* another articles' titles */
+/* end of another articles' titles */
+
+/* twitter message */
+/* end of twitter message */
+
+/* footer */
+/* end of footer */
+}
+
+@media screen and (max-width: 320px) {
+/* base */
+/* end of base */
+
+/* home */
+	/* header */
+	/* end of header */
+/* end of home */
+
+/* who & why */
+/* end of who & why */
+
+/* features */
+/* end of features */
+
+/* featured articles */
+/* end of featured articles */
+
+/* clients */
+/* end of clients */
+
+/* portfolio & screenshots */
+/* end of portfolio & screenshots */
+
+/* quote */
+/* end of quote */
+
+/* facts & numbers */
+/* end of facts & numbers */
+
+/* articles gallery */
+/* end of articles gallery */
+
+/* another articles' titles */
+/* end of another articles' titles */
+
+/* twitter message */
+/* end of twitter message */
+
+/* footer */
+/* end of footer */
+}
