@@ -14,10 +14,39 @@ body {
 		position: relative;
 	}
 
-	h1 {
+	.title--main {
 		text-align: right;
 		font-size: 65px;
+		font-family: 'Source Sans Pro', sans-serif;
+	}
+
+	.title {
+		text-align: center;
 		font-family: "SourceSansProBold";
+		font-size: 24px;
+		letter-spacing: 2px;
+		color: #212121;
+	}
+
+	.description {
+		text-align: center;
+		font-size: 14px;
+		line-height: 31px;
+		color: #212121;		
+	}
+
+	.clearfix::after {
+		content: "";
+		overflow: hidden;
+		display: table;
+		clear: both;
+	}
+
+	.line {
+		position: absolute;
+		width: 67px;
+		height: 6px;
+		background-color: #e64a19;
 	}
 /* end of base */
 
@@ -31,13 +60,6 @@ body {
 
 	.block__container--home {
 		padding: 0 0 4.72%;
-	}
-
-	.clearfix::after {
-		content: "";
-		overflow: hidden;
-		display: table;
-		clear: both;
 	}
 
 	.logo--header {
@@ -150,19 +172,21 @@ body {
 	}
 
 	.line--underline {
-		width: 124px;
-	    height: 4px;
+		position: absolute;
+		right: 0.6%;
+	    width: 124px;
+	    height: 3px;
 	    background-color: #212121;
-	    float: right;
 	    margin: 8px 4px 0;
 	}
 
 	.content__description--home {
 		clear: both;
-		font-size: 16.5px;
-	    line-height: 31px;
-	    padding: 2.74% 0 4.15% 52.08%;
+		font-size: 16px;
+	    line-height: 30px;
+	    padding: 4% 0 4.5% 52.08%;
 	    text-align: right;
+	    letter-spacing: 0.2px;
 	}
 
 	.btn {    
@@ -175,10 +199,10 @@ body {
 	.btn__caption {
 	    text-decoration: none;
 	    color: #212121;
-	    font-size: 15px;
+	    font-size: 16px;
 	    font-family: "SourceSansProBold";
 	    border: 2.5px solid #212121;
-	    padding: 8px 78.5px 13px;
+	    padding: 9px 80px 11px 72px;;
 	}    
 
 	.btn__caption:hover {
@@ -204,6 +228,55 @@ body {
 /* end of clients */
 
 /* portfolio & screenshots */
+	.block--portfolio-screenshots {
+		
+	}
+
+	.block__container--portfolio-screenshots {
+		padding: 93px 10px 0px;
+	}
+
+	.line--portfolio-screenshots {
+		position: absolute;
+		left: 46.5%;
+	}
+
+	.description--portfolio-screenshots {
+		width: 67%;
+    	margin: auto;
+    	padding: 27px 0 39px;
+    	letter-spacing: 0.3px;
+	}
+
+	.menu--portfolio-screenshots {
+		float: none;
+		text-align: center;
+		margin: 41px 0 32px;
+	}
+	
+	.menu__item--portfolio-screenshots {
+		display: inline-block;
+		font-family: "SourceSansProRegular";
+		text-transform: capitalize;
+		letter-spacing: 1.4px;
+		border-bottom: 2px solid transparent;
+		margin: 0 9px;
+    	padding: 0 2px;		
+	}
+
+	.menu__item--portfolio-screenshots:hover {
+		color: #e64a19;
+		border-bottom: 2px solid #e64a19;
+	}
+
+	.block--slider {
+		padding: 0 0 45px;
+	}
+
+	.slick__item {
+		width: 100%;
+	}
+
 /* end of portfolio & screenshots */
 
 /* quote */
