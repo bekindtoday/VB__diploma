@@ -48,6 +48,7 @@ body {
 		height: 6px;
 		background-color: #e64a19;
 	}
+
 /* end of base */
 
 
@@ -294,5 +295,140 @@ body {
 /* twitter message */
 /* end of twitter message */
 
-/* footer */
-/* end of footer */
+/* feedback form */
+.block--feedbackform {
+	background-color: #212121;
+}
+
+.block__container--feedbackform {	
+    padding: 64px 10px 8px;
+}
+
+.logo--footer {
+	font-size: 20px;
+    font-family: "SourceSansProBold";
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #eee;
+}
+
+.description--footer {
+    letter-spacing: 0.2px;
+    font-size: 12.4px;
+    line-height: 22px;
+    color: #999;
+    padding: 22px 0 20px;	
+}
+
+.contain-box__item--form {
+    width: 36.6%;
+    float: left;
+} 
+
+.contain-box__item--list {
+	display: block;
+    padding: 0 0 0 14%;
+    width: 49.4%;%;
+    float: left;
+}
+
+.form_item {
+    display: inline-block;
+    float: left;
+    width: 46%;
+}
+
+.form_item--textarea {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+
+.form_item--withmargin {
+	margin-left: 8%;
+}
+
+.form_item {
+	color: #999;
+	font-family: "SourceSansProRegular";
+    margin-bottom: 1.2%;
+    padding: 2% 0%;
+    font-size: 11.5px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #464646;
+    height: 100%;
+    line-height: 14px;
+    background: transparent;
+}
+
+.form_item:focus {
+	color: #d387bc;
+}
+
+.list-title {
+	text-transform: uppercase;
+    color: #ddd;
+    letter-spacing: 1px;
+    font-size: 13px;
+    padding: 0 0 28px;
+}
+
+.list {
+	float: left;
+	width: 13.33%;
+	padding: 0 10% 0;
+}
+
+.list__item {
+	text-decoration: none;
+    display: block;
+    color: #999;
+    font-family: SourceSansProRegular;
+    font-size: 12px;
+    letter-spacing: 0.9px;
+    line-height: 22px;
+}
+
+.list__item:hover{
+	color: #d387bc;
+}
+
+.form__item--send {
+    width: 100%;
+    padding: 2% 0% 1%;
+    margin: 1% 0 2%;
+}
+
+.contain-box--links {
+	width: 50%;
+}
+
+.menu--footer {
+	float: right;
+}
+
+.menu__item--footer {
+	text-decoration: none;
+    text-transform: uppercase;	
+    letter-spacing: 0.5px;
+    padding: 0 0 0 24px;
+    font-size: 12px;
+	line-height: 65px;
+	font-family: "SourceSansProRegular";
+	color: #aaa;
+}
+
+.menu__item--footer:hover {
+	color: #ac8f61;
+}	
+
+.description--footer-copyright {
+	padding: 9px 0 0;
+	float: left;
+}
+
+	/* footer */
+	/* end of footer */
+/* end of feedback form*/
