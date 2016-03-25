@@ -259,14 +259,11 @@ body {
 		font-family: "SourceSansProRegular";
 		text-transform: capitalize;
 		letter-spacing: 1.4px;
-		border-bottom: 2px solid transparent;
-		margin: 0 9px;
-    	padding: 0 2px;		
+    	padding: 0 11px;		
 	}
 
 	.menu__item--portfolio-screenshots:hover {
 		color: #e64a19;
-		border-bottom: 2px solid #e64a19;
 	}
 
 	.block--slider {

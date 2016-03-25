@@ -4,6 +4,7 @@ $('.slick-slider').slick({
       slidesToShow: 3.5,
       slidesToScroll: 1,
       autoplay: true,
+      playSpeed: 1000,
       cssEase: 'linear'
 });
 
