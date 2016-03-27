@@ -1,0 +1,18 @@
+.slick-next::before { 
+	content: '>';
+    background: url('../img/right_arrow.png') no-repeat;
+}
+
+.slick-prev::before {
+	content: '';
+}	
+
+.slick-next::before, .slick-prev::before {
+    font-size: 45px;
+    line-height: 1;
+    color: transparent;
+}
+
+.slick-next, .slick-prev {
+    top: 34%;
+}    

@@ -217,6 +217,24 @@ body {
 /* end of home */
 
 /* who & why */
+.block__container--who-why {
+	padding: 73px 10px;
+}
+
+.image-box {
+	display: block;
+	text-align: center;
+	margin: 0;
+	padding: 11px;
+}
+
+.content__description--who-why {
+    text-align: center;
+    font-size: 15px;
+    line-height: 29.5px;
+    letter-spacing: 0.1px;
+    padding: 55px 92px 34px;
+}
 /* end of who & why */
 
 /* features */
@@ -226,11 +244,61 @@ body {
 /* end of featured articles */
 
 /* clients */
+	.block--clients {
+		background-color: #EFEFEF;
+	}
+
+	.block__container--clients {
+		padding: 55px 10px 21px;
+	}
+	
+	.slider-box {
+		padding: 53px 59px 0 128px;;
+	}
+
+	.slider__item {
+		width: 125px; 
+		height: 125px;
+		margin: 0px 28px;
+		float: left;
+		background: url('../img/clients-sprite.png') no-repeat;
+	}
+	
+	.slider__item--1 {
+		background-position: 3px 0px;
+	}
+
+	.slider__item--2 {
+		background-position: -161px -2px;
+	}
+
+	.slider__item--3 {
+		background-position: -336px -2px;
+	}
+
+	.slider__item--4 {
+		background-position: -501px 0;
+	}
+
+	.slider__item--5 {
+		background-position: -652px -1px;
+	}
+
+	.slider__item--6 {
+		background-position: -819px -1px;
+	}
+
+
+
 /* end of clients */
 
 /* portfolio & screenshots */
 	.block--portfolio-screenshots {
 		
+	}
+	
+	.slider-box--fullwidth {
+		height: 80%;
 	}
 
 	.block__container--portfolio-screenshots {
