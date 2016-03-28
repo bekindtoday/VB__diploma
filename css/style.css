@@ -53,6 +53,7 @@ body {
 
 
 /* home */
+	/* header */
 	.block--home {
 		padding: 3.58% 0.94% 2.41%;
 		background: url(../img/tree_bg.png) 100% 100% no-repeat;
@@ -166,6 +167,7 @@ body {
 	    top: 0 !important;
 	    transform: rotate(-45deg);
 	}
+	/* end of header */
 
 	.block__content--home {
 		padding: 30.84% 0 8.21%;
@@ -218,18 +220,21 @@ body {
 
 /* who & why */
 .block__container--who-why {
-	padding: 73px 10px;
+	padding: 73px 10px 59px;
 }
 
-.image-box {
+.figure-box__item--single {
 	display: block;
 	text-align: center;
 	margin: 0;
 	padding: 11px;
 }
 
+.figure-box__item {
+	padding: 5px 0px;
+}
+
 .content__description--who-why {
-    text-align: center;
     font-size: 15px;
     line-height: 29.5px;
     letter-spacing: 0.1px;
@@ -238,9 +243,114 @@ body {
 /* end of who & why */
 
 /* features */
+.block--features {
+	background-color: #efefef;
+}
+
+.block__container--features {
+	padding: 0 10px 22px;
+}
+
+.figure-box {
+    width: 100%;
+    padding: 65px 6px;
+}
+
+.figure-box__item--features {
+	text-align: left;
+    width: 23%;
+    float: left;
+    margin: 0 5.16%;
+}
+
+.figure-box__image {
+	width: 39px;
+    height: 33px;	
+}
+
+.figure-box__title {
+	font-family: SourceSansProBold;
+    font-size: 16px;
+    line-height: 57.5px;
+    letter-spacing: 1px;
+}
+
+.content__description--article {
+	font-size: 15px;
+    line-height: 26.5px;
+    letter-spacing: 0.1px;
+	}
 /* end of features */
 
 /* featured articles */
+.block__container--articles {
+		padding: 93px 10px 75px;
+	}
+
+	.description--articles {
+		width: 67%;
+    	margin: auto;
+    	padding: 27px 0 39px;
+    	letter-spacing: 0.3px;
+	}
+
+	.figure-box--articles {
+	padding: 50px 0;
+}
+
+.line--intozbox {
+	top:0%;
+	left: 40%;
+}
+
+.figure-box__item--articles {
+	background-color: #222;
+	text-align: left;
+    width: 27%;
+    float: left;
+    margin: 0 10px;
+    position: relative;
+}
+
+.content__description--article-genre {
+	font-family: SourceSansProRegular;
+	color: #eee;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+	padding: 49px 0 0 35px;
+}
+
+.figure-box__title--article {
+	color: #eee;
+    font-family: SourceSansProRegular;
+    font-size: 20px;
+    line-height: 31px;
+    padding: 15px 15px 37px 37px;
+    letter-spacing: 2px;
+	color: #eee;
+}
+
+.figure-box__title--article-2 {
+	padding: 15px 15px 66px 37px;
+}
+
+.figure-box__image--articles {
+	float: left;
+	width: 54px;
+	height: 54px;
+	padding: 9px 14px 42px 37px;
+}
+
+.image__description {
+	color: #eee;
+    font-size: 11.5px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    line-height: 19px;
+    padding: 16px 0px;
+}
+ 
 /* end of featured articles */
 
 /* clients */
@@ -265,38 +375,35 @@ body {
 	}
 	
 	.slider__item--1 {
-		background-position: 3px 0px;
+		background-position: 3px 26px;
 	}
 
 	.slider__item--2 {
-		background-position: -161px -2px;
+		background-position: -161px 26px;
 	}
 
 	.slider__item--3 {
-		background-position: -336px -2px;
+		background-position: -336px 26px;
 	}
 
 	.slider__item--4 {
-		background-position: -501px 0;
+		background-position: -501px 26px;
 	}
 
 	.slider__item--5 {
-		background-position: -652px -1px;
+		background-position: -652px 26px;
 	}
 
 	.slider__item--6 {
-		background-position: -819px -1px;
+		background-position: -819px 26px;
 	}
-
-
-
 /* end of clients */
 
 /* portfolio & screenshots */
 	.block--portfolio-screenshots {
 		
 	}
-	
+
 	.slider-box--fullwidth {
 		height: 80%;
 	}
@@ -473,30 +580,29 @@ body {
 	width: 50%;
 }
 
-.menu--footer {
-	float: right;
-}
-
-.menu__item--footer {
-	text-decoration: none;
-    text-transform: uppercase;	
-    letter-spacing: 0.5px;
-    padding: 0 0 0 24px;
-    font-size: 12px;
-	line-height: 65px;
-	font-family: "SourceSansProRegular";
-	color: #aaa;
-}
-
-.menu__item--footer:hover {
-	color: #ac8f61;
-}	
-
-.description--footer-copyright {
-	padding: 9px 0 0;
-	float: left;
-}
-
 	/* footer */
+	.menu--footer {
+		float: right;
+	}
+
+	.menu__item--footer {
+		text-decoration: none;
+	    text-transform: uppercase;	
+	    letter-spacing: 0.5px;
+	    padding: 0 0 0 24px;
+	    font-size: 12px;
+		line-height: 65px;
+		font-family: "SourceSansProRegular";
+		color: #aaa;
+	}
+
+	.menu__item--footer:hover {
+		color: #ac8f61;
+	}	
+
+	.description--footer-copyright {
+		padding: 9px 0 0;
+		float: left;
+	}
 	/* end of footer */
 /* end of feedback form*/
