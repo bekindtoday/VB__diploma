@@ -312,6 +312,10 @@ body {
     position: relative;
 }
 
+.figure-box__item--articles:hover {
+	opacity: 0.8;
+}
+
 .content__description--article-genre {
 	font-family: SourceSansProRegular;
 	color: #eee;
@@ -350,7 +354,6 @@ body {
     line-height: 19px;
     padding: 16px 0px;
 }
- 
 /* end of featured articles */
 
 /* clients */
@@ -363,7 +366,7 @@ body {
 	}
 	
 	.slider-box {
-		padding: 53px 59px 0 128px;;
+		padding: 53px 59px 0 128px;
 	}
 
 	.slider__item {
@@ -373,7 +376,11 @@ body {
 		float: left;
 		background: url('../img/clients-sprite.png') no-repeat;
 	}
-	
+
+	.slider__item:hover {
+		opacity: 0.7;
+	}
+
 	.slider__item--1 {
 		background-position: 3px 26px;
 	}
@@ -395,7 +402,7 @@ body {
 	}
 
 	.slider__item--6 {
-		background-position: -819px 26px;
+		background-position: -820px 26px;
 	}
 /* end of clients */
 
@@ -443,7 +450,7 @@ body {
 	}
 
 	.block--slider {
-		padding: 0 0 45px;
+		padding: 0 0 96px;
 	}
 
 	.slick__item {
@@ -453,21 +460,212 @@ body {
 /* end of portfolio & screenshots */
 
 /* quote */
+.block--quote {
+	background-color: #212121;
+}
+
+.block__container--quote {
+	padding: 37px 10px 22px;
+}
+
+.figure-box__item--quote {
+	text-align: center;
+	margin: 0;
+    padding: 36px 0px;
+}
+
+.figure-box__image--quote {
+	width: 17px;
+	height: 16px;
+}
+
+.content__description--quote {
+	color: #eee;
+	padding: 8px 150px 28px;
+    line-height: 35px;
+    font-size: 17.5px;
+    letter-spacing: 0.21px;
+}
+
+.quote-sign {
+	color: #eee;
+	font-size: 17.5px;
+    letter-spacing: 0.21px;
+    font-style: italic;
+}
 /* end of quote */
 
 /* team members */
+.block__container--team-members {
+	padding: 90px 10px 115px;
+}
+
+.description--team-members {
+	padding: 37px 0 39px;
+}
+
+.figure-box--team-members {
+	padding: 0;
+}
+
+.figure-box__item--team-members {
+	float: left;
+	margin: 0;
+	text-align: center;	
+	text-transform: uppercase;
+	width: 25%;
+}	
+
+.figure-box__image--team-members {
+	width: 60%;
+	margin: auto;
+	-webkit-border-radius: 50% 50%;
+	        border-radius: 50% 50%;
+}
+
+.figure-box__title--team-members {
+	font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0px;
+    padding: 18px 0px 13px;
+}
+
+.image__description--team-members {
+	color: #222;
+	font-size: 12.5px;
+    text-transform: initial;
+    letter-spacing: 0.4px;
+    padding: 0px;
+    line-height: 13px;
+}
 /* end of team members */
 
 /* facts & numbers */
+.block--facts-numbers {
+	background: url('../img/tint.png'), url('../img/boy_bg.png') no-repeat;
+}
+
+.block__container--facts-numbers {
+	padding: 88px 10px 125px;
+}
+
+.title--white {
+	color: #eee;
+	padding: 0 0 58px;
+}
+
+.figure-box--facts-numbers {
+	background: url('../img/tint-white.png');
+	width: 70.5%;
+    text-align: center;
+    margin: auto;
+    padding: 32px 0;
+}
+
+.figure-box__item--facts-numbers {
+	margin: 0;
+	width: 46%;
+	float: left;
+	padding: 5px 0px 12px 19px;;
+}
+
+.description--withborder {
+	font-family: "SourceSansProBold";
+	border-bottom: 4px solid #4d4c4b;
+    width: 67px;
+    margin: auto;
+    color: #eee;
+    letter-spacing: 2.2px;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.description--withoutborder {
+	color: #eee;
+    font-size: 20px;
+    line-height: 56px;
+    letter-spacing: 2.2px;
+}
+
+.line--belowzbox {
+	margin: auto;
+	position: static;
+}
 /* end of facts & numbers */
 
 /* articles gallery */
 /* end of articles gallery */
 
 /* another articles' titles */
+.block--another-articles {
+	background-color: #efefef;
+}
+
+.block__container---another-articles {
+	padding: 67px 10px 20px;
+}
+
+.content-subblock {
+	border-left: 7px solid #212121;
+	float: left;
+	margin: 0 15px;
+}
+
+.content-subblock:hover {
+	border-left: 7px solid #e64a19;
+}
+
+.content-subblock__item {
+	padding: 9px 0px 7px 16px;
+    letter-spacing: 0.3px;
+    font-family: SourceSansProBold;
+}
+
+.content-subblock__item--description {
+    padding: 1px 0px 9px 16px;
+    letter-spacing: 0.9px;
+    font-size: 13px;
+}
 /* end of another articles' titles */
 
 /* twitter message */
+.block__container--twitter {
+	padding: 37px 10px 53px;
+}
+
+.figure-box__item--twitter {
+	text-align: center;
+	margin: 0;
+    padding: 31px 0px;
+}
+
+.figure-box__image--twitter {
+	display: block;
+	margin: 0 auto;
+    width: 24px;
+    height: 19px;
+}
+
+.content__description--twitter {
+	color: #222;
+	padding: 8px 150px 26px;
+    line-height: 35px;
+    font-size: 17.5px;
+    letter-spacing: 0.21px;
+}
+
+.figure-box__image--author {
+	width: 54px;
+    height: 54px;
+    padding: 52px 0 15px;
+}
+
+.twitter-sign{
+    font-size: 14px;
+    letter-spacing: 0.21px;
+    font-family: "SourceSansProBold";
+    line-height: 16px;
+}
 /* end of twitter message */
 
 /* feedback form */
@@ -503,12 +701,11 @@ body {
 .contain-box__item--list {
 	display: block;
     padding: 0 0 0 14%;
-    width: 49.4%;%;
+    width: 49.4%;
     float: left;
 }
 
 .form_item {
-    display: inline-block;
     float: left;
     width: 46%;
 }
