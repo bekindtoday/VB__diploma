@@ -566,7 +566,7 @@ body {
 	margin: 0;
 	width: 46%;
 	float: left;
-	padding: 5px 0px 12px 19px;;
+	padding: 5px 0px 12px 19px;
 }
 
 .description--withborder {
@@ -594,6 +594,67 @@ body {
 /* end of facts & numbers */
 
 /* articles gallery */
+.block__container--articles-gallery {
+	padding: 100px 0px 58px;
+}
+
+.figure-box--articles-gallery {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.figure-box__item--articles-gallery {
+	padding: 0 0 25px;
+	margin: 0;
+}
+
+.content-subblock--articles-gallery {
+	margin: 0 7.5% 0 6.5%;
+    width: 36%;
+	float: left;
+	padding: 70px 0;
+}
+
+.content-subblock--withimage {
+	margin: 0 0 0 1%;
+    width: 49%;
+    float: left;
+    padding: 0;
+}
+
+.content-subblock--withimage-2 {
+	margin: 0 1% 0 0;
+}
+
+.withfloat {
+	float: right;
+}
+
+.content-subblock__description--articles-gallery {
+    font-size: 11.5px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+}
+
+.content-subblock__title--articles-gallery {
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 2.2px;
+    padding: 7px 0 39px;
+}
+
+.content-subblock__item--articles-gallery {
+	font-size: 13.5px;
+    letter-spacing: 0.4px;
+    line-height: 26px;
+}
+
+.figure-box__image--articles-gallery {
+	width: 100%;
+}
+
+
 /* end of articles gallery */
 
 /* another articles' titles */
@@ -606,13 +667,13 @@ body {
 }
 
 .content-subblock {
-	border-left: 7px solid #212121;
+	border-left: 6px solid #212121;
 	float: left;
 	margin: 0 15px;
 }
 
 .content-subblock:hover {
-	border-left: 7px solid #e64a19;
+	border-left: 6px solid #e64a19;
 }
 
 .content-subblock__item {
