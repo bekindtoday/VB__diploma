@@ -366,7 +366,7 @@ body {
 	}
 	
 	.slider-box {
-		padding: 53px 59px 0 128px;
+		padding: 53px 61px 0 83px;
 	}
 
 	.slider__item {
@@ -653,8 +653,6 @@ body {
 .figure-box__image--articles-gallery {
 	width: 100%;
 }
-
-
 /* end of articles gallery */
 
 /* another articles' titles */
@@ -664,6 +662,10 @@ body {
 
 .block__container---another-articles {
 	padding: 67px 10px 20px;
+}
+
+.slick-slider--4 {
+	width: 93%;
 }
 
 .content-subblock {
