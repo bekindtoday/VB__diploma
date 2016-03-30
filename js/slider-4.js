@@ -3,34 +3,10 @@ $('.slick-slider--4').slick({
   slidesToScroll: 1,
   arrows: true,
   responsive: [
-  	{
-	  breakpoint: 960,
-	  settings: {
-	  slidesToShow: 3,
-	  slidesToScroll: 1,
-	  arrows: true
-	  }
-	},
-	{
-	  breakpoint: 885,
+	{ 
+	  breakpoint: 761,
 	  settings: {
 	  slidesToShow: 2,
-	  slidesToScroll: 2,
-	  arrows: true
-	  }
-	},
-	{ 
-	  breakpoint: 768,
-	  settings: {
-	  slidesToShow: 1,
-	  slidesToScroll: 1,
-	  arrows: true
-	  }
-	},
-	{ 
-	  breakpoint: 600,
-	  settings: {
-	  slidesToShow: 1,
 	  slidesToScroll: 1,
 	  arrows: true
 	  }

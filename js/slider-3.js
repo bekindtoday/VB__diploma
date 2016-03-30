@@ -3,24 +3,16 @@ $('.slick-slider--3').slick({
   slidesToScroll: 1,
   arrows: true,
   responsive: [
-  	{
-	  breakpoint: 960,
-	  settings: {
-	  slidesToShow: 3,
-	  slidesToScroll: 1,
-	  arrows: true
-	  }
-	},
-	{
-	  breakpoint: 885,
+	{ 
+	  breakpoint: 769,
 	  settings: {
 	  slidesToShow: 2,
-	  slidesToScroll: 2,
+	  slidesToScroll: 1,
 	  arrows: true
 	  }
 	},
 	{ 
-	  breakpoint: 768,
+	  breakpoint: 601,
 	  settings: {
 	  slidesToShow: 1,
 	  slidesToScroll: 1,
@@ -28,15 +20,7 @@ $('.slick-slider--3').slick({
 	  }
 	},
 	{ 
-	  breakpoint: 600,
-	  settings: {
-	  slidesToShow: 1,
-	  slidesToScroll: 1,
-	  arrows: true
-	  }
-	},
-	{ 
-	  breakpoint: 480,
+	  breakpoint: 481,
 	  settings: {
 	  slidesToShow: 1,
 	  slidesToScroll: 1,

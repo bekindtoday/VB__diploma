@@ -3,42 +3,26 @@ $('.slick-slider--2').slick({
   slidesToScroll: 3,
   arrows: true,
   responsive: [
-  	{
-	  breakpoint: 960,
+	{ 
+	  breakpoint: 769,
 	  settings: {
 	  slidesToShow: 5,
 	  slidesToScroll: 3,
 	  arrows: true
 	  }
 	},
-	{
-	  breakpoint: 885,
+	{ 
+	  breakpoint: 601,
 	  settings: {
 	  slidesToShow: 4,
-	  slidesToScroll: 3,
+	  slidesToScroll: 2,
 	  arrows: true
 	  }
 	},
 	{ 
-	  breakpoint: 768,
+	  breakpoint: 481,
 	  settings: {
 	  slidesToShow: 3,
-	  slidesToScroll: 3,
-	  arrows: true
-	  }
-	},
-	{ 
-	  breakpoint: 600,
-	  settings: {
-	  slidesToShow: 2,
-	  slidesToScroll: 1,
-	  arrows: true
-	  }
-	},
-	{ 
-	  breakpoint: 480,
-	  settings: {
-	  slidesToShow: 1,
 	  slidesToScroll: 1,
 	  arrows: true  
 	  }   	

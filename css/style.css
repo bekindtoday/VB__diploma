@@ -17,7 +17,7 @@ body {
 	.title--main {
 		text-align: right;
 		font-size: 65px;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Source Sans Pro';
 	}
 
 	.title {
@@ -195,8 +195,8 @@ body {
 	.btn {    
 		float: right;
 	   	background: transparent;
-	   	border: 0px solid;
-	   	margin: 12px 0px;
+	   	padding: 9px 80px 11px 72px;
+	   	border: 2.5px solid #212121;
 	}
 
 	.btn__caption {
@@ -204,18 +204,17 @@ body {
 	    color: #212121;
 	    font-size: 16px;
 	    font-family: "SourceSansProBold";
-	    border: 2.5px solid #212121;
-	    padding: 9px 80px 11px 72px;;
 	}    
 
-	.btn__caption:hover {
-		border: 2.5px solid #f8f8f8;;
+	.btn:hover {
+		border: 2.5px solid #f8f8f8;
 		cursor: pointer;
-		font-family: "SourceSansProBold";
-		background: rgba(50, 47, 40, 0.2);
-		color: #f8f8f8;
-		
-}
+		background: rgba(50, 47, 40, 0.3);
+	}
+
+	.btn:hover > .btn__caption {
+		color: #f8f8f8;	
+	}
 /* end of home */
 
 /* who & why */
@@ -330,12 +329,16 @@ body {
     font-family: SourceSansProRegular;
     font-size: 20px;
     line-height: 31px;
-    padding: 15px 15px 37px 37px;
+    padding: 15px 15px 35px 37px;
     letter-spacing: 2px;
 	color: #eee;
 }
 
 .figure-box__title--article-2 {
+	padding: 15px 15px 66px 37px;
+}
+
+.figure-box__title--article-3 {
 	padding: 15px 15px 66px 37px;
 }
 
@@ -394,7 +397,7 @@ body {
 	}
 
 	.slider__item--4 {
-		background-position: -501px 26px;
+		background-position: -501px 24px;
 	}
 
 	.slider__item--5 {
@@ -407,10 +410,6 @@ body {
 /* end of clients */
 
 /* portfolio & screenshots */
-	.block--portfolio-screenshots {
-		
-	}
-
 	.slider-box--fullwidth {
 		height: 80%;
 	}
@@ -454,6 +453,10 @@ body {
 	}
 
 	.slick__item {
+		width: 100%;
+	}
+
+	.slick__item-image {
 		width: 100%;
 	}
 
